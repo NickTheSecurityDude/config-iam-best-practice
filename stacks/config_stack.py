@@ -35,7 +35,7 @@ class ConfigStack(core.Stack):
     # mfa-enabled-for-iam-console-access
     # root-account-mfa-enabled
     # python/ROOT_NO_ACCESS_KEY
-    # python/iam_unused_keys.py - doesn't work use custom function
+    # python/iam_unused_keys.py - (AWS version doesn't work, I wrote a custom function instead)
 
     # access-keys-rotated-cdk
     config.ManagedRule(self,"Access Keys Rotated",
